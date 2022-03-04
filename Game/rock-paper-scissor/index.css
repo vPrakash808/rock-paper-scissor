@@ -1,0 +1,75 @@
+body {
+  margin: 10px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  position: relative;
+}
+#header {
+  border: 1px solid gold;
+  width: 30vw;
+  border-radius: 15rem;
+  padding: 2rem;
+  background-color: rgb(15, 15, 12);
+  color: white;
+  align-items: center;
+  margin: auto;
+  font-style: italic;
+}
+.buttons {
+  border: 40rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ch {
+ background-color: rgb(60, 78, 43);
+  font-size: xx-large;
+  color: white;
+  margin: auto;
+  width: 20vw;
+  height: 15vh;
+  padding: 1rem;
+  border-radius: 5vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+button {
+  background-color: tomato;
+  width: 10rem;
+  border: 1px solid tomato;
+  border-radius: 5rem;
+  color: white;
+  margin: 2rem;
+  padding: 2rem;
+  font-size: x-large;
+}
+.sp {
+  text-align: center;
+  margin: auto;
+  
+}
+#result {
+  padding: 40px;
+  width: 30vw;
+  color: rgb(0, 0, 0);
+}
+
+h2 {
+  text-align: center;
+}
+#msg{
+  color: red;
+  font-weight: bold;
+  font-size: x-large;
+}
+table{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
